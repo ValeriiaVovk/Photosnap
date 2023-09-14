@@ -1,0 +1,431 @@
+/* font-family: 'DM Sans', sans-serif; */
+
+/* Обнулення  */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+ul,
+li,
+button,
+pre {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    background: #fff;
+}
+
+.container {
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    max-width: 1460px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*header*/
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 16px 165px;
+}
+
+nav {
+    padding-left: 251px;
+    padding-right: 264px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+ul a {
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+ul a:active {
+    opacity: 0.30000001192092896;
+}
+
+ul a:hover {
+    opacity: 0.30000001192092896;
+}
+
+header > button {
+    min-width: 158px;
+    /* height: 40px; */
+    background: #000;
+    padding: 12px 24px;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+}
+
+header > button:active {
+    background: #DFDFDF;
+    color: #000;
+}
+
+header > button:hover {
+    background: #DFDFDF;
+    color: #000;
+}
+
+/*first section*/
+
+.main-section {
+    display: flex;
+    
+}
+
+.about-photosnap {
+    background: #000;
+    width: 610px;
+    height: 650px;
+    padding: 173px 111px 173px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dec {
+    width: 6px;
+    height: 304px;
+    background: linear-gradient(27deg, #FFC593 0%, #BC7198 51.95%, #5A77FF 100%);
+}
+
+.about-photosnap_info {
+    max-width: 387px;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.167px;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+
+h1 + p {
+    color: #FFF;
+    opacity: 0.6000000238418579;
+    margin-bottom: 48px;
+}
+
+
+.button {
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.button img {
+    padding-left: 18px;
+}
+
+.button:active {
+    text-decoration-line: underline;
+}
+
+.button:hover {
+    text-decoration-line: underline;
+}
+
+/*second section*/
+
+.benefits {
+    display: flex;
+}
+
+.info {
+    width: 610px;
+    height: 600px;
+    padding: 136px 111px 135px 112px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.167px;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+
+h2 + p {
+    opacity: 0.6000000238418579;
+    margin-bottom: 48px;
+}
+
+.button-black {
+    color: #000;
+}
+
+.info-padding {
+    padding: 160px 111px 159px 112px;
+}
+
+/* section four*/
+
+.activities {
+    display: flex;
+    position: relative;
+}
+
+.activity {
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 500px;
+    padding: 361px 40px 40px 40px;
+    transition: fill .4s ease;  
+}
+
+.activity:hover {
+    position: relative;
+    top: -24px;
+    border: 6px solid;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    /* border-bottom-width: 6px;
+    border-bottom-style: solid; */
+    border-image-slice: 1;
+    /* border-bottom-color: red; */
+    border-image-source: linear-gradient(to right, #FFC593 0%, #BC7198 51.95%, #5A77FF 100%);
+}
+
+.activity:nth-child(1) {
+    background: url(../images/mountain.png);
+}
+
+.activity:nth-child(2) {
+    background: url(../images/city-sunset.png);
+}
+
+.activity:nth-child(3) {
+    background: url(../images/voyage.png);
+}
+
+.activity:nth-child(4) {
+    background: url(../images/architectural.png);
+}
+
+.activity h3 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.activity p {
+    color: #FFF;
+    font-size: 13px;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.button-white-wrap {
+    justify-content: space-between;
+    width: 280px;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    padding-top: 20px;
+}
+
+.button-white-wrap .button img {
+    padding-left: 145px;
+}
+
+.button-white-wrap .button:active {
+    text-decoration-line: none;
+}
+
+.button-white-wrap .button:hover {
+    text-decoration-line: none;
+}
+
+/* section five */
+
+.advantages {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+    padding: 120px 165px;
+}
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advantage img {
+    margin-bottom: 48px;
+}
+
+.advantage h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 16px;
+}
+
+.advantage p {
+    text-align: center;
+    opacity: 0.6000000238418579;
+}
+
+/*footer */
+
+footer {
+    background: #000;
+    padding: 64px 165px 64px 171px;
+    /* display: flex; */
+    
+}
+
+.footer {
+    display: flex;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.nav-footer {
+    padding-left: 109px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+}
+
+.navigation a {
+    color: #FFF;
+}
+
+.navigation a:active {
+    opacity: 0.30000001192092896;
+}
+
+.navigation a:hover {
+    opacity: 0.30000001192092896;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.copyright p {
+    color: #FFF;
+    line-height: normal;
+    opacity: 0.5025343894958496;
+}
+
+svg {
+    transition: fill .4s ease;  
+}
+.facebook path:active {
+    fill: url(#paint0_linear_0_4006);
+}
+
+.facebook path:hover {
+    fill: url(#paint0_linear_0_4006);
+}
+
+.youtube path:active {
+    fill: url(#paint0_linear_0_4017);
+}
+
+.youtube path:hover {
+    fill: url(#paint0_linear_0_4017);
+}
+
+.twitter path:active {
+    fill: url(#paint0_linear_0_4014);
+}
+
+.twitter path:hover {
+    fill: url(#paint0_linear_0_4014);
+}
+
+.pinterest path:active {
+    fill: url(#paint0_linear_0_4013);
+}
+
+.pinterest path:hover {
+    fill: url(#paint0_linear_0_4013);
+}
+
+.instagram path:active {
+    fill: url(#paint0_linear_0_4009);
+}
+
+.instagram path:hover {
+    fill: url(#paint0_linear_0_4009);
+}
